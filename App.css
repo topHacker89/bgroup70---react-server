@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+#myHeader {
+  background-image: linear-gradient( #dd4587,#ff8841 );
+  border: none;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#myHeader p {
+  margin: 0px;
+}
+
+#nextBtn {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  z-index: 100;
+  width:50px;
+  height:50px;
+}
+
+#homeBtn {
+  position: fixed;
+  top: 8px;
+  left: 5px;
+}
+
+#likeImg {
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  z-index: 200;
+  width:50px;
+  height:50px;
+}
+
+
+#sadImg {
+  width:100px;
+  height:100px;
+}
+
+.match {
+  text-align: left;
+  font-size: 12px;
+}
+.premium {
+  font-size: 18px;
+}
+
+.ui-btn-text {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.ui-btn-inner ,.ui-btn-corner-all {
+  background-color: #ff5864;
+  border-radius: 0px;
+}
+
+span.ui-btn-inner, span.ui-btn-corner-all {
+  height: 25px;
+}
+
+.ui-field-contain {
+  text-align: center;
+}
+
+.ui-field-contain .ui-select .ui-btn .ui-btn-inner {
+  border: none;
+}
+
+.ui-shadow {
+  box-shadow: none;
+}
+
+.ui-btn-up-c {
+  text-shadow: none;
+}
+
+#minAge, #maxAge {
+  text-align: center;
+}
+
+#maxAgeLbl, #minAgeLbl, #minAge, #maxAge {
+  border-radius: 0px;
+}
+
+.ui-icon.ui-icon-search {
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.ui-icon.ui-icon-delete {
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+#placeHolder {
+  position: relative;
+  margin-top: 20px;
+}
+
+a.ui-btn {
+  border-radius: 15px;
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+
+a.ui-btn.ui-icon-arrow-r {
+  right: 0px;
+  background-color: #aaa;
+}
+
+a.ui-btn.ui-icon-check {
+  left: 0px;
+  background-color: rgb(223, 128, 128);
+}
+
+img {
+  width: 100%;
+}
+
+#tooBad{
+  position: absolute; top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 0.5;
+  transform: translateX(-50%);
+  left: 50%;
+  text-align: center;
+}
+
+#location {
+  display: inline;
+}
+
+#premiumLabel {
+  color: red; font-style: italic; display: inline;
+  font-size: 10px;
+}
+
+.otherInfo {
+  font-size: 14px;
+}
+
+#results {
+  height: 100px;
+}
+
+.ui-btn-icon-left .ui-btn-inner {
+  margin-top: -1px;
+}
+
+#minMax {
+ text-align: center;
+}
+
+#minMaxAge{
+  text-align: center;
+}
+
+.MuiPaper-rounded-2{
+ padding: 10px;
+ margin: 10px;
+}
+
